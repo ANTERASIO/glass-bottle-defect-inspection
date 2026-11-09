@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Environments & OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Large local raw dataset downloads (keep local dataset/ lightweight for git)
+data/
+*.tar.xz
+*.zip
+
+# Generated demo artifacts
+output/
